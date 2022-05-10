@@ -1,0 +1,19 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif !important;
+    }
+
+
+//links video y mapa
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+}
+.extlink {
+    @include sizes(550px, 315px,);
+}

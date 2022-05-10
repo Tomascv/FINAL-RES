@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;1,100;1,200&family=Titillium+Web:ital,wght@0,200;0,400;0,600;0,700;1,200&display=swap");
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Titillium Web', sans-serif !important; }
+
+.extlink {
+  height: 315px;
+  width: 550px; }
+
+.navbar {
+  display: flex;
+  position: sticky;
+  background-color: #7f7f8149;
+  top: 0;
+  height: 80px; }
+
+.navbarlogo {
+  height: 38px;
+  width: auto; }
+  .navbarlogo:hover {
+    transition: 0.5s;
+    transform: scale(1.05);
+    filter: grayscale(50%); }
+
+.navbar__links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  list-style: none;
+  padding: 20px; }
+  .navbar__links .navbar__link {
+    color: #03318C;
+    text-decoration: none;
+    padding: 20px; }
+  .navbar__links .navbar__link--active {
+    border-bottom: 1.5px solid #271f96;
+    font-weight: lighter; }
+
+@media screen and (max-width: 768px) {
+  .navbar__links {
+    display: flex;
+    justify-content: start; }
+  .navbar__link {
+    margin: 5px; } }
+
+@media screen and (max-width: 560px) {
+  .navbar {
+    position: relative;
+    height: auto;
+    justify-content: center;
+    align-items: right; }
+  .navbarlogo {
+    height: 20px;
+    margin: 10px; }
+  .navbar__links {
+    display: flex;
+    flex-direction: column; }
+  .navbar__link {
+    margin-bottom: 2px; } }
+
+.footer {
+  background: #ffffff;
+  padding-top: 1rem; }
+  .footer .company-name {
+    text-align: center;
+    color: #525151; }
+
+.header_tit {
+  color: #03318C;
+  text-align: center;
+  padding-top: 20px; }
+
+.container .row-titulo {
+  color: #03318C;
+  margin-left: 10px;
+  margin-top: 15px;
+  padding-bottom: 10px;
+  text-align: center; }
+
+.container .row-texto {
+  color: #706f6f;
+  padding-left: 5px;
+  margin: 0 5px 5px 5px;
+  text-align: justify; }
+
+/*lista de clientes*/
+.clientlist {
+  list-style: none;
+  color: #706f6f; }
+  .clientlist .listitem:hover {
+    transition: 0.3s;
+    transform: scale(1.05); }
+
+/*CONTACTO*/
+.img-thumbnail {
+  height: 500px;
+  width: 400px; }
+
+/*NOSOTROS*/
+.marketing .col-lg-4 {
+  margin-top: 50px;
+  margin-bottom: 1.5rem;
+  text-align: center; }
+  .marketing .col-lg-4 h2 {
+    font-weight: 400;
+    color: #747474; }
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem; }
+
+.marketing .bd-placeholder-img:hover {
+  transition: 1s;
+  transform: scale(1.08); }

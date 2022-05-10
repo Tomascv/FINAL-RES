@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;1,100;1,200&family=Titillium+Web:ital,wght@0,200;0,400;0,600;0,700;1,200&display=swap');
+@import "_generales";
+@import "_variables";
+@import "_navbar";
+@import "_footer";
+
+
+
+.header_tit {
+    color: $azulmarca;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.container {
+.row-titulo {
+    color: $azulmarca;
+    margin-left: 10px;
+    margin-top: 15px;
+    padding-bottom: 10px;
+    text-align:center;
+}
+.row-texto { 
+     color:$gris-claro; 
+     padding-left: 5px;
+     margin: 0 5px 5px 5px;
+     text-align: justify;
+ }
+}
+
+/*lista de clientes*/ 
+
+.clientlist {
+    list-style: none;
+    color: $gris-claro;
+    .listitem:hover {
+        transition: 0.3s;
+        transform: scale(1.05);
+        }
+    }
+
+ 
+
+/*CONTACTO*/
+.img-thumbnail {
+ height: 500px;
+ width: 400px;
+}
+
+/*NOSOTROS*/
+.marketing {
+.col-lg-4 {
+    margin-top: 50px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+ h2 {
+    font-weight: 400;
+    color: rgb(116, 116, 116);
+}
+ p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+}
+.bd-placeholder-img:hover {
+    transition: 1s;
+    transform: scale(1.08);
+}
+}
+
+
