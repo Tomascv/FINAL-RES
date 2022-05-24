@@ -1,3 +1,12 @@
+let btenviar = document.querySelector ('#btenviar')
+btenviar.addEventListener('click', () => {
+    swal({
+        icon: 'success',
+        title: 'Enviado, gracias!',
+        text: 'Pronto nos pondremos en contacto',
+          })
+    })
+
 let formcontacto = document.getElementById('contactform')
 let arrayDatoscontacto = JSON.parse(localStorage.getItem('formulario')) ?? []
 
@@ -19,4 +28,5 @@ formcontacto.addEventListener('submit', (event) => {
     formcontacto.reset()
 
 })
+
 
